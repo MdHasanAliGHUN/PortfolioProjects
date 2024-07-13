@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .............FONT FAMILY............ */
+.font-family{
+    font-family: "Montserrat", sans-serif;
+}
+.btn-bg{
+    background-color: #ffc74a;
+}
+
+
+/* HEADER STYLE START FROM HERE */
+.header{
+    height: 100vh;
+    background-image:
+    linear-gradient(rgba(60, 56, 59, 0.73), rgba(60, 56, 59, 0.73)),
+    url('../images/Background1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+/*.............. NAVBAR STYLE START FROM HERE..............*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20 30 0px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+.logo-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+/*.............. BANNER STYLE START FROM HERE..............*/
+.banner{
+    text-align: center;
+}
+.banner-content{
+    width: 500px;
+    margin: 120px auto;
+    text-align: center;
+}
+.banner-title{
+    color:#ed6950;
+    margin-bottom: 25px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+.banner-title span{
+    color:white;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+}
+.banner-description{
+    color: #0c0d0b;
+    margin-bottom:40px ;
+}
+.banner-btn{
+    width: 200px;
+    padding: 15px 25px;
+    color: #b98000;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+}
+.place-title{
+    color: white;
+    margin-bottom: 30px;
+}
+/*.............. POPULATION STYLE START FROM HERE..............*/
+
+.boxs{
+    display: grid;
+    grid-template-columns: repeat(5,minmax(240px, 1fr));
+    gap: 10px
+}
+.box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.population-section{
+}
+/*.............. PLACE  STYLE START FROM HERE..............*/
+
+.place-section{
+    margin-top:250px;
+}
+.top-boxs-title{
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.top-boxs-input{
+    width: 600px;
+    margin: 10px auto;
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    background-color: rgb(242, 232, 232);
+}
+.boxs-container{
+    width: 600px;
+    margin:0 auto;
+    background-color: #fbfbfc;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-boxs{
+    display: flex;
+    gap: 10px;
+}
+.btn-boxs button{
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 100px;
+}
+.btn-boxs a{
+    text-decoration: none;
+}
+.bottom-boxs{
+    margin-top: 30px;
+}
+.card-container{
+    text-align: center;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(400px, 1fr));
+}
+.card{
+    background-color: rgb(247, 240, 240);
+    padding: 20px 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.card-img{
+    width: 100%;
+}
+.card-content button{
+    background-color: rgb(248, 239, 239);
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+/*.............. EXPLORE  STYLE START FROM HERE..............*/
+.explore-section{
+    display: flex;
+    margin: 50px;
+}
+.explore-title{
+    text-align: center;
+    margin-top: 20px;
+}
+.explore-titel{
+    color: #ffc74a;
+    margin: 20px 0 ;
+}
+.explore-left{
+    width:40%;
+}
+.explore-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.emty-div{
+    position: relative;
+    top: 30px;
+    left: 25px;
+    width: 300px;
+    height: 290px;
+    border: 10px solid blue;
+    border-radius: 5px;
+}
+.img-div{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: url('../images/City.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+
+
+/* FOOTER STYLE START FROM HERE */
+
+.journy-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-image: url('../images/Background2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: wheat;
+    
+}
+.journy-section-content{
+    text-align: center;
+}
+.journy-title{
+    font-weight: bold;
+    margin: 20px 10px;
+}
+.journy-sub-title{
+    font-weight: bold;
+    margin: 20px 10px;
+}
